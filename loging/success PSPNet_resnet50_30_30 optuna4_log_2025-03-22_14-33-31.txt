@@ -1,0 +1,1 @@
+2025-03-22_14-33-31 - Trial PSPNet_resnet50_30_30 finished successfully with best IOU: 0.8097413182258606

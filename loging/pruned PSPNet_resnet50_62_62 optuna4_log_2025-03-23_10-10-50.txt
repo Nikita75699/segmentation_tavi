@@ -1,0 +1,1 @@
+2025-03-23_10-10-50 - Trial PSPNet_resnet50_62_62 was pruned.

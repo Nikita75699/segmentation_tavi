@@ -1,0 +1,1 @@
+2025-03-25_08-10-40 - Trial MAnet_resnet50_172_172 was pruned.

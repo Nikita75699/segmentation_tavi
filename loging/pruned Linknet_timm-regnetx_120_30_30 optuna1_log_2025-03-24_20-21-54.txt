@@ -1,0 +1,1 @@
+2025-03-24_20-21-54 - Trial Linknet_timm-regnetx_120_30_30 was pruned.

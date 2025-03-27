@@ -1,0 +1,11 @@
+[03-05-2024 20:42:10][INFO] - Config:
+
+model_dir: models/Unet
+data_dir: data/visualization
+method: GradCAM
+output_size:
+- 1024
+- 1024
+device: auto
+save_dir: eval/activation_maps
+

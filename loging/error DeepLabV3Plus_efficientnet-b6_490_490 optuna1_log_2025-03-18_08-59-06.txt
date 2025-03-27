@@ -1,0 +1,1 @@
+2025-03-18_08-59-06 - Trial DeepLabV3Plus_efficientnet-b6_490_490 - Exception: Expected more than 1 value per channel when training, got input size torch.Size([1, 256, 1, 1])

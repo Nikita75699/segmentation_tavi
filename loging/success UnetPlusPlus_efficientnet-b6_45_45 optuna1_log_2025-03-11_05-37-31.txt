@@ -1,0 +1,1 @@
+2025-03-11_05-37-31 - Trial UnetPlusPlus_efficientnet-b6_45_45 finished successfully with best IOU: 0.8355417847633362

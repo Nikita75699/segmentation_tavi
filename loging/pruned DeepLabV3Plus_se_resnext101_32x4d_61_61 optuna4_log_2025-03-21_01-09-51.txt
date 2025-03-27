@@ -1,0 +1,1 @@
+2025-03-21_01-09-51 - Trial DeepLabV3Plus_se_resnext101_32x4d_61_61 was pruned.

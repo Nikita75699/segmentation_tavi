@@ -1,0 +1,1 @@
+2025-03-20_14-02-16 - Trial MAnet_timm-resnest50d_162_162 was pruned.

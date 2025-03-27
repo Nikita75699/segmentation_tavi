@@ -1,0 +1,1 @@
+2025-03-16_06-46-05 - Trial Linknet_timm-resnest101e_22_22 finished successfully with best IOU: 0.8237029314041138

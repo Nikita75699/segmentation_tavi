@@ -1,0 +1,9 @@
+[14-05-2024 21:59:08][INFO] - Config:
+
+metrics_path: /home/vladislav/PythonProject/Git-hub/oct_segmentation/models/3_class/MA-Net/metrics.csv
+save_dir: /home/vladislav/PythonProject/Git-hub/oct_segmentation/models/3_class/MA-Net
+train_metric: Loss
+test_metric: Dice
+
+[14-05-2024 21:59:10][INFO] - plot saved
+[14-05-2024 21:59:10][INFO] - Complete

@@ -1,0 +1,1 @@
+2025-03-10_23-53-07 - Trial UnetPlusPlus_timm-resnest101e_6_6 finished successfully with best IOU: 0.805882453918457

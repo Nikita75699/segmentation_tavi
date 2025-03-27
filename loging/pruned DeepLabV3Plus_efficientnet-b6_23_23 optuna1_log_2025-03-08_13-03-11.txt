@@ -1,0 +1,1 @@
+2025-03-08_13-03-11 - Trial DeepLabV3Plus_efficientnet-b6_23_23 was pruned.

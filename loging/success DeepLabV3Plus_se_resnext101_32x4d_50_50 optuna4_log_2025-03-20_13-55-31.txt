@@ -1,0 +1,1 @@
+2025-03-20_13-55-31 - Trial DeepLabV3Plus_se_resnext101_32x4d_50_50 finished successfully with best IOU: 0.837647020816803

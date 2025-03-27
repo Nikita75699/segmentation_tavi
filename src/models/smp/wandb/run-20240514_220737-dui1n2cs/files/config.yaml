@@ -1,0 +1,90 @@
+wandb_version: 1
+
+architecture:
+  desc: null
+  value: unet
+encoder:
+  desc: null
+  value: resnet50
+input_size:
+  desc: null
+  value: 512
+classes:
+  desc: null
+  value:
+  - Vasa vasorum
+num_classes:
+  desc: null
+  value: 1
+batch_size:
+  desc: null
+  value: 4
+optimizer:
+  desc: null
+  value: Adam
+lr:
+  desc: null
+  value: 1.0e-05
+weight_decay:
+  desc: null
+  value: 0.0
+use_augmentation:
+  desc: null
+  value: true
+epochs:
+  desc: null
+  value: 75
+device:
+  desc: null
+  value: cuda
+data_dir:
+  desc: null
+  value: /home/vladislav/PythonProject/Git-hub/oct_segmentation/data/cv_dev/fold_1
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.8
+    cli_version: 0.16.6
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1715699257.0
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      - 41
+      - 49
+      - 50
+      - 53
+      - 55
+      - 63
+      - 74
+      - 80
+      - 103
+      - 105
+      2:
+      - 1
+      - 5
+      - 9
+      - 41
+      - 49
+      - 50
+      - 53
+      - 55
+      - 63
+      - 74
+      - 80
+      - 103
+      - 105
+      3:
+      - 13
+      - 16
+      - 23
+      - 61
+      4: 3.11.8
+      5: 0.16.6
+      8:
+      - 5
+      13: linux-x86_64

@@ -1,0 +1,7 @@
+[14-05-2024 21:56:27][INFO] - Config:
+
+metrics_path: /home/vladislav/PythonProject/Git-hub/oct_segmentation/models/1_class/DeepLabV3/metrics.csv
+save_dir: /home/vladislav/PythonProject/Git-hub/oct_segmentation/models/1_class/DeepLabV3
+train_metric: Loss
+test_metric: Dice
+

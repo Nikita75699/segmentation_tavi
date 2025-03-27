@@ -1,0 +1,1 @@
+2025-03-08_21-46-47 - Trial PSPNet_efficientnet-b6_27_27 finished successfully with best IOU: 0.7944214344024658

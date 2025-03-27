@@ -1,0 +1,1 @@
+2025-03-06_09-11-44 - Trial Linknet_resnet50_11_11 was pruned.

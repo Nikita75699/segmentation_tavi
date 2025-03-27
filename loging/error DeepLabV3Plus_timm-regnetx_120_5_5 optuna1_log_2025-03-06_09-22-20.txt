@@ -1,0 +1,1 @@
+2025-03-06_09-22-20 - Trial DeepLabV3Plus_timm-regnetx_120_5_5 - Exception: Expected more than 1 value per channel when training, got input size torch.Size([1, 256, 1, 1])

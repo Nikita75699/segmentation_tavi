@@ -1,0 +1,1 @@
+2025-03-23_03-42-43 - Trial FPN_timm-resnest50d_192_192 was pruned.

@@ -1,0 +1,1 @@
+2025-03-20_08-38-11 - Trial FPN_se_resnext101_32x4d_143_143 was pruned.

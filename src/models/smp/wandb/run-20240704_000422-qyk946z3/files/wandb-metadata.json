@@ -1,0 +1,122 @@
+{
+    "os": "Linux-6.5.0-41-generic-x86_64-with-glibc2.35",
+    "python": "3.11.8",
+    "heartbeatAt": "2024-07-03T17:04:23.854910",
+    "startedAt": "2024-07-03T17:04:22.597247",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "vladislav",
+    "username": "vladislav",
+    "executable": "/home/vladislav/miniconda3/envs/oct/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3995.7949375,
+        "min": 2200.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4600.985,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4772.517,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3862.922,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3857.085,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3857.085,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3830.623,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3856.437,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4593.81,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4075.225,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3945.913,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3861.965,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3856.575,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3858.873,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3856.314,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3863.116,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4150.116,
+            "min": 2200.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 456.8854446411133,
+            "used": 164.16571426391602
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 31.25735855102539
+    }
+}

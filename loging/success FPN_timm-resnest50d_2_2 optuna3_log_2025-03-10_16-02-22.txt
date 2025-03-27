@@ -1,0 +1,1 @@
+2025-03-10_16-02-22 - Trial FPN_timm-resnest50d_2_2 finished successfully with best IOU: 0.8211138248443604

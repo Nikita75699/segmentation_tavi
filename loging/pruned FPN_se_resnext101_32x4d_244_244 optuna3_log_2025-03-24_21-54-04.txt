@@ -1,0 +1,1 @@
+2025-03-24_21-54-04 - Trial FPN_se_resnext101_32x4d_244_244 was pruned.

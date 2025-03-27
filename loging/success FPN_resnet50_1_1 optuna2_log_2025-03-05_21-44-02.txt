@@ -1,0 +1,1 @@
+2025-03-05_21-44-02 - Trial FPN_resnet50_1_1 finished successfully with best IOU: 0.8218523859977722

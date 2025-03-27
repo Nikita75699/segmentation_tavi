@@ -1,0 +1,1 @@
+2025-03-25_05-23-59 - Trial PSPNet_efficientnet-b6_42_42 was pruned.

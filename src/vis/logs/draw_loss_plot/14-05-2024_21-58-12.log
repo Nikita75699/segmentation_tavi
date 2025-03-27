@@ -1,0 +1,9 @@
+[14-05-2024 21:58:12][INFO] - Config:
+
+metrics_path: /home/vladislav/PythonProject/Git-hub/oct_segmentation/models/1_class/PAN/metrics.csv
+save_dir: /home/vladislav/PythonProject/Git-hub/oct_segmentation/models/1_class/PAN
+train_metric: Loss
+test_metric: Dice
+
+[14-05-2024 21:58:17][INFO] - plot saved
+[14-05-2024 21:58:17][INFO] - Complete

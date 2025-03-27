@@ -1,0 +1,1 @@
+2025-03-15_18-10-18 - Trial Linknet_se_resnext101_32x4d_14_14 finished successfully with best IOU: 0.8336704969406128

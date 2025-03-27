@@ -1,0 +1,1 @@
+2025-03-12_23-23-32 - Trial UnetPlusPlus_timm-regnetx_120_59_59 finished successfully with best IOU: 0.8285881280899048

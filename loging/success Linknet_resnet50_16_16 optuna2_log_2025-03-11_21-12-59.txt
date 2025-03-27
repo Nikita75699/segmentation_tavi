@@ -1,0 +1,1 @@
+2025-03-11_21-12-59 - Trial Linknet_resnet50_16_16 finished successfully with best IOU: 0.8214020729064941

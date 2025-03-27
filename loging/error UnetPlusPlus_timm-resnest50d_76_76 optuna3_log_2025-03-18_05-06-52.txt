@@ -1,0 +1,1 @@
+2025-03-18_05-06-52 - Trial UnetPlusPlus_timm-resnest50d_76_76 - Exception: Expected more than 1 value per channel when training, got input size torch.Size([1, 32, 1, 1])

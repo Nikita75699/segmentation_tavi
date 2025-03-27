@@ -1,0 +1,15 @@
+[09-04-2024 23:39:48][INFO] - Config:
+
+data_dir: data/interim
+save_dir: data/cv
+num_folds: 5
+seed: 11
+split_column: study
+smooth_mask: true
+color_mask: true
+class_names:
+- Lumen
+- Lipid core
+- Fibrous cap
+- Vasa vasorum
+

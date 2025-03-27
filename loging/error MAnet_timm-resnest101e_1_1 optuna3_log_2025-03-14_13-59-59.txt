@@ -1,0 +1,1 @@
+2025-03-14_13-59-59 - Trial MAnet_timm-resnest101e_1_1 - Exception: Expected more than 1 value per channel when training, got input size torch.Size([1, 32, 1, 1])

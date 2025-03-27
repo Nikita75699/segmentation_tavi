@@ -1,0 +1,1 @@
+2025-03-06_16-13-56 - Trial MAnet_resnet50_399_399 finished successfully with best IOU: 0.7677668333053589

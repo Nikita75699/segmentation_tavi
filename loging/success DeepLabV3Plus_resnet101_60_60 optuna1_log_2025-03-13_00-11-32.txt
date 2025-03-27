@@ -1,0 +1,1 @@
+2025-03-13_00-11-32 - Trial DeepLabV3Plus_resnet101_60_60 finished successfully with best IOU: 0.8300735950469971

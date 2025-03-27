@@ -1,0 +1,10 @@
+[09-04-2024 23:50:00][INFO] - Config:
+
+data_dir: data/sly_output
+crop:
+- - 0
+  - 0
+- - 1000
+  - 1000
+save_dir: data/interim
+

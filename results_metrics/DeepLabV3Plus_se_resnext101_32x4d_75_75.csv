@@ -1,0 +1,2 @@
+epoch,train_loss,train_iou,train_dice,valid_loss,valid_iou,valid_dice
+0,0.3820496,0.4855971,0.6334852,0.17818518,0.7048904,0.8264821

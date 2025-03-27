@@ -1,0 +1,1 @@
+2025-03-09_04-01-34 - Trial DeepLabV3Plus_timm-regnetx_120_31_31 was pruned.

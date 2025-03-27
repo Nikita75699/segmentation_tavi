@@ -1,0 +1,1 @@
+2025-03-21_00-44-07 - Trial UnetPlusPlus_se_resnext101_32x4d_165_165 finished successfully with best IOU: 0.8336069583892822

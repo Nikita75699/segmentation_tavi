@@ -1,0 +1,1 @@
+2025-03-23_06-26-58 - Trial MAnet_se_resnext101_32x4d_196_196 was pruned.

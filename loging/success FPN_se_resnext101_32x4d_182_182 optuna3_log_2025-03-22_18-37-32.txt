@@ -1,0 +1,1 @@
+2025-03-22_18-37-32 - Trial FPN_se_resnext101_32x4d_182_182 finished successfully with best IOU: 0.8359851837158203

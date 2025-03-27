@@ -1,0 +1,74 @@
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+You are using a CUDA device ('NVIDIA GeForce RTX 3060') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+Missing logger folder: logs/lightning_logs
+
+
+Check image-mask pairs: 100%|██████████| 4842/4842 [00:06<00:00, 712.24it/s]
+Check image-mask pairs:   0%|          | 0/1315 [00:00<?, ?it/s]
+Number of image-mask pairs: 146
+Number of image-mask pairs: 28
+Check image-mask pairs: 100%|██████████| 1315/1315 [00:00<00:00, 1684.73it/s]
+/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:653: Checkpoint directory /home/vladislav/PythonProject/Git-hub/oct_segmentation/models/unet_resnet50_1405_2207 exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+  | Name    | Type     | Params
+-------------------------------------
+0 | model   | Unet     | 32.5 M
+1 | loss_fn | DiceLoss | 0
+-------------------------------------
+32.5 M    Trainable params
+0         Non-trainable params
+32.5 M    Total params
+
+
+
+
+Epoch 0: 100%|██████████| 37/37 [00:08<00:00,  4.38it/s, v_num=0, train/loss_step=0.998]
+
+Validation DataLoader 0: 100%|██████████| 7/7 [00:00<00:00, 14.17it/s]
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/vladislav/PythonProject/Git-hub/oct_segmentation/src/models/smp/train.py", line 137, in main
+    trainer.fit(
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 544, in fit
+    call._call_and_handle_interrupt(
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 44, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 580, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 987, in _run
+    results = self._run_stage()
+              ^^^^^^^^^^^^^^^^^
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1033, in _run_stage
+    self.fit_loop.run()
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 205, in run
+    self.advance()
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/loops/fit_loop.py", line 363, in advance
+    self.epoch_loop.run(self._data_fetcher)
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 141, in run
+    self.on_advance_end(data_fetcher)
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 295, in on_advance_end
+    self.val_loop.run()
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/loops/utilities.py", line 182, in _decorator
+    return loop_run(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 142, in run
+    return self.on_run_end()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 254, in on_run_end
+    self._on_evaluation_epoch_end()
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 334, in _on_evaluation_epoch_end
+    call._call_lightning_module_hook(trainer, hook_name)
+  File "/home/vladislav/miniconda3/envs/oct/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 157, in _call_lightning_module_hook
+    output = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vladislav/PythonProject/Git-hub/oct_segmentation/src/models/smp/model.py", line 133, in on_validation_epoch_end
+    save_metrics_on_epoch(
+  File "/home/vladislav/PythonProject/Git-hub/oct_segmentation/src/models/smp/utils.py", line 86, in save_metrics_on_epoch
+    with open(f'models/{model_name}/metrics.csv', 'a', newline='') as f_object:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'models/unet_resnet50_1405_2207/metrics.csv'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

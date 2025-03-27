@@ -1,0 +1,1 @@
+2025-03-06_18-31-50 - Trial Linknet_efficientnet-b6_7_7 finished successfully with best IOU: 0.8279118537902832

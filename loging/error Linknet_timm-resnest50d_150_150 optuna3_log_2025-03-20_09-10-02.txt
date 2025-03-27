@@ -1,0 +1,1 @@
+2025-03-20_09-10-02 - Trial Linknet_timm-resnest50d_150_150 - Exception: Expected more than 1 value per channel when training, got input size torch.Size([1, 32, 1, 1])

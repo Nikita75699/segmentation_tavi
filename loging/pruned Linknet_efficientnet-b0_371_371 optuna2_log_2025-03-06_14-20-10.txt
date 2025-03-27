@@ -1,0 +1,1 @@
+2025-03-06_14-20-10 - Trial Linknet_efficientnet-b0_371_371 was pruned.

@@ -1,0 +1,1 @@
+2025-03-23_01-25-06 - Trial MAnet_efficientnet-b4_136_136 was pruned.

@@ -1,0 +1,1 @@
+2025-03-22_17-10-33 - Trial MAnet_efficientnet-b4_133_133 finished successfully with best IOU: 0.8336297273635864

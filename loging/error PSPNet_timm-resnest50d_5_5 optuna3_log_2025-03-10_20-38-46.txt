@@ -1,0 +1,1 @@
+2025-03-10_20-38-46 - Trial PSPNet_timm-resnest50d_5_5 - Exception: Expected more than 1 value per channel when training, got input size torch.Size([1, 32, 1, 1])

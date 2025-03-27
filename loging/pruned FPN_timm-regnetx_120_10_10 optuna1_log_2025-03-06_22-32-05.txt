@@ -1,0 +1,1 @@
+2025-03-06_22-32-05 - Trial FPN_timm-regnetx_120_10_10 was pruned.

@@ -1,0 +1,1 @@
+2025-03-20_07-29-00 - Trial FPN_efficientnet-b4_112_112 was pruned.

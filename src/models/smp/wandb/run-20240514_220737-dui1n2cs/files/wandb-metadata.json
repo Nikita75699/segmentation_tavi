@@ -1,0 +1,128 @@
+{
+    "os": "Linux-6.5.0-28-generic-x86_64-with-glibc2.35",
+    "python": "3.11.8",
+    "heartbeatAt": "2024-05-14T15:07:38.768438",
+    "startedAt": "2024-05-14T15:07:37.063930",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/vladislav/PythonProject/Git-hub/oct_segmentation/src/models/smp/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "src/models/smp/train.py",
+    "git": {
+        "remote": "https://github.com/ViacheslavDanilov/oct_segmentation.git",
+        "commit": "9ea00762ace268fd889611b618590b9b800fded5"
+    },
+    "email": "vvl39@tpu.ru",
+    "root": "/home/vladislav/PythonProject/Git-hub/oct_segmentation",
+    "host": "vladislav",
+    "username": "vladislav",
+    "executable": "/home/vladislav/miniconda3/envs/oct/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 4101.14925,
+        "min": 2200.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3878.498,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4705.957,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4828.46,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3875.537,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4842.511,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3881.569,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4592.759,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3873.884,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4036.88,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4085.076,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4648.258,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3879.74,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4849.417,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3879.317,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3881.333,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3864.368,
+            "min": 2200.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 456.8854446411133,
+            "used": 403.23718643188477
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 31.257366180419922
+    }
+}

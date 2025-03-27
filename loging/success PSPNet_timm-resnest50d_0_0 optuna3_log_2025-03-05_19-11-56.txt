@@ -1,0 +1,1 @@
+2025-03-05_19-11-56 - Trial PSPNet_timm-resnest50d_0_0 finished successfully with best IOU: 0.7494550347328186

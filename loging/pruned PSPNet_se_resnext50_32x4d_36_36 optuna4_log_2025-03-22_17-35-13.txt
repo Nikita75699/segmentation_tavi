@@ -1,0 +1,1 @@
+2025-03-22_17-35-13 - Trial PSPNet_se_resnext50_32x4d_36_36 was pruned.

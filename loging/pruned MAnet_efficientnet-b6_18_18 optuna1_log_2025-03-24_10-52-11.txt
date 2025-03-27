@@ -1,0 +1,1 @@
+2025-03-24_10-52-11 - Trial MAnet_efficientnet-b6_18_18 was pruned.

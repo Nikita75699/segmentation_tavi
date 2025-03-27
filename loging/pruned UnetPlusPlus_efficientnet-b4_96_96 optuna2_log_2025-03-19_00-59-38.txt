@@ -1,0 +1,1 @@
+2025-03-19_00-59-38 - Trial UnetPlusPlus_efficientnet-b4_96_96 was pruned.

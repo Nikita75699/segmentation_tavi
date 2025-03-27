@@ -1,0 +1,1 @@
+2025-03-12_14-34-25 - Trial UnetPlusPlus_se_resnext50_32x4d_30_30 was pruned.

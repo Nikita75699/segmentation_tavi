@@ -1,0 +1,1 @@
+2025-03-24_11-59-11 - Trial PSPNet_timm-regnetx_120_20_20 was pruned.

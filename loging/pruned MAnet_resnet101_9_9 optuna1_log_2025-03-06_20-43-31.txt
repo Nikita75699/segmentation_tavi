@@ -1,0 +1,1 @@
+2025-03-06_20-43-31 - Trial MAnet_resnet101_9_9 was pruned.

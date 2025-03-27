@@ -1,0 +1,1 @@
+2025-03-23_02-07-34 - Trial PSPNet_se_resnext101_32x4d_190_190 finished successfully with best IOU: 0.818792462348938

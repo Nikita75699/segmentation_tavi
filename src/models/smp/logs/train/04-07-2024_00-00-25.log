@@ -1,0 +1,24 @@
+[04-07-2024 00:00:25][INFO] - Config:
+
+project_name: retinopathy_segmentation
+data_dir: data/fold
+classes:
+- Microaneurysms
+- Haemorrhages
+- Hard Exudates
+- Soft Exudates
+- Optic Disc
+architecture: unet
+encoder: resnet50
+optimizer: Adam
+lr: 1.0e-05
+weight_decay: 0.0
+input_size: 512
+batch_size: 4
+epochs: 75
+device: auto
+img_save_interval: 5
+save_wandb_media: true
+use_augmentation: true
+save_dir: models
+

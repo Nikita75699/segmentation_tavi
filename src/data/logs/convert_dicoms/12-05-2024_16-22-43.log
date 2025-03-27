@@ -1,0 +1,13 @@
+[12-05-2024 16:22:43][INFO] - Config:
+
+data_dir: data/dcm
+include_dirs: []
+exclude_dirs: []
+output_size:
+- 1000
+- 1000
+to_gray: false
+output_type: image
+fps: 15
+save_dir: data/sly_input
+

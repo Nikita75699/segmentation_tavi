@@ -1,0 +1,1 @@
+2025-03-10_03-16-07 - Trial Linknet_efficientnet-b6_40_40 was pruned.

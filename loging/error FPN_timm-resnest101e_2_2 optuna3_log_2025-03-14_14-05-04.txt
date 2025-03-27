@@ -1,0 +1,1 @@
+2025-03-14_14-05-04 - Trial FPN_timm-resnest101e_2_2 - Exception: Expected more than 1 value per channel when training, got input size torch.Size([1, 32, 1, 1])

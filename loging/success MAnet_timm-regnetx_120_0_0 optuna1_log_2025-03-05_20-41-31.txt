@@ -1,0 +1,1 @@
+2025-03-05_20-41-31 - Trial MAnet_timm-regnetx_120_0_0 finished successfully with best IOU: 0.8268540501594543

@@ -1,0 +1,1 @@
+2025-03-06_21-59-52 - Trial UnetPlusPlus_resnet50_594_594 finished successfully with best IOU: 0.8328551054000854

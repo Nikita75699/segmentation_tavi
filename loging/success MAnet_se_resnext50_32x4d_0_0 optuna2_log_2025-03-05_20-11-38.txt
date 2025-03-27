@@ -1,0 +1,1 @@
+2025-03-05_20-11-38 - Trial MAnet_se_resnext50_32x4d_0_0 finished successfully with best IOU: 0.8146762251853943

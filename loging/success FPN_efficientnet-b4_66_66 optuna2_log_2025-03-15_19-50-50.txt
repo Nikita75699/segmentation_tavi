@@ -1,0 +1,1 @@
+2025-03-15_19-50-50 - Trial FPN_efficientnet-b4_66_66 finished successfully with best IOU: 0.8355460166931152

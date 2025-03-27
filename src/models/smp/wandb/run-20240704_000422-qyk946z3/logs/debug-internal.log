@@ -1,0 +1,91 @@
+2024-07-04 00:04:22,621 INFO    StreamThr :27831 [internal.py:wandb_internal():86] W&B internal server running at pid: 27831, started at: 2024-07-04 00:04:22.620270
+2024-07-04 00:04:22,622 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status
+2024-07-04 00:04:22,629 INFO    WriterThread:27831 [datastore.py:open_for_write():87] open: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/run-qyk946z3.wandb
+2024-07-04 00:04:22,629 DEBUG   SenderThread:27831 [sender.py:send():379] send: header
+2024-07-04 00:04:22,632 DEBUG   SenderThread:27831 [sender.py:send():379] send: run
+2024-07-04 00:04:23,356 INFO    SenderThread:27831 [dir_watcher.py:__init__():211] watching files in: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files
+2024-07-04 00:04:23,357 INFO    SenderThread:27831 [sender.py:_start_run_threads():1124] run started: qyk946z3 with start time 1720026262.624884
+2024-07-04 00:04:23,383 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: check_version
+2024-07-04 00:04:23,383 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: check_version
+2024-07-04 00:04:23,806 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: run_start
+2024-07-04 00:04:23,830 DEBUG   HandlerThread:27831 [system_info.py:__init__():26] System info init
+2024-07-04 00:04:23,830 DEBUG   HandlerThread:27831 [system_info.py:__init__():41] System info init done
+2024-07-04 00:04:23,830 INFO    HandlerThread:27831 [system_monitor.py:start():194] Starting system monitor
+2024-07-04 00:04:23,830 INFO    SystemMonitor:27831 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-04 00:04:23,831 INFO    HandlerThread:27831 [system_monitor.py:probe():214] Collecting system info
+2024-07-04 00:04:23,832 INFO    SystemMonitor:27831 [interfaces.py:start():190] Started cpu monitoring
+2024-07-04 00:04:23,833 INFO    SystemMonitor:27831 [interfaces.py:start():190] Started disk monitoring
+2024-07-04 00:04:23,834 INFO    SystemMonitor:27831 [interfaces.py:start():190] Started gpu monitoring
+2024-07-04 00:04:23,834 INFO    SystemMonitor:27831 [interfaces.py:start():190] Started memory monitoring
+2024-07-04 00:04:23,835 INFO    SystemMonitor:27831 [interfaces.py:start():190] Started network monitoring
+2024-07-04 00:04:23,854 DEBUG   HandlerThread:27831 [system_info.py:probe():150] Probing system
+2024-07-04 00:04:23,856 DEBUG   HandlerThread:27831 [gitlib.py:_init_repo():56] git repository is invalid
+2024-07-04 00:04:23,856 DEBUG   HandlerThread:27831 [system_info.py:probe():198] Probing system done
+2024-07-04 00:04:23,856 DEBUG   HandlerThread:27831 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-41-generic-x86_64-with-glibc2.35', 'python': '3.11.8', 'heartbeatAt': '2024-07-03T17:04:23.854910', 'startedAt': '2024-07-03T17:04:22.597247', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'vladislav', 'username': 'vladislav', 'executable': '/home/vladislav/miniconda3/envs/oct/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3995.7949375, 'min': 2200.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 4600.985, 'min': 2200.0, 'max': 3800.0}, {'current': 4772.517, 'min': 2200.0, 'max': 3800.0}, {'current': 3862.922, 'min': 2200.0, 'max': 3800.0}, {'current': 3857.085, 'min': 2200.0, 'max': 3800.0}, {'current': 3857.085, 'min': 2200.0, 'max': 3800.0}, {'current': 3830.623, 'min': 2200.0, 'max': 3800.0}, {'current': 3856.437, 'min': 2200.0, 'max': 3800.0}, {'current': 4593.81, 'min': 2200.0, 'max': 3800.0}, {'current': 4075.225, 'min': 2200.0, 'max': 3800.0}, {'current': 3945.913, 'min': 2200.0, 'max': 3800.0}, {'current': 3861.965, 'min': 2200.0, 'max': 3800.0}, {'current': 3856.575, 'min': 2200.0, 'max': 3800.0}, {'current': 3858.873, 'min': 2200.0, 'max': 3800.0}, {'current': 3856.314, 'min': 2200.0, 'max': 3800.0}, {'current': 3863.116, 'min': 2200.0, 'max': 3800.0}, {'current': 4150.116, 'min': 2200.0, 'max': 3800.0}], 'disk': {'/': {'total': 456.8854446411133, 'used': 164.16571426391602}}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12884901888}], 'memory': {'total': 31.25735855102539}}
+2024-07-04 00:04:23,856 INFO    HandlerThread:27831 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-04 00:04:23,856 INFO    HandlerThread:27831 [system_monitor.py:probe():227] Publishing system info
+2024-07-04 00:04:23,857 DEBUG   HandlerThread:27831 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-07-04 00:04:24,360 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/conda-environment.yaml
+2024-07-04 00:04:25,924 DEBUG   HandlerThread:27831 [system_info.py:_save_conda():222] Saving conda packages done
+2024-07-04 00:04:25,930 INFO    HandlerThread:27831 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-04 00:04:25,966 DEBUG   SenderThread:27831 [sender.py:send():379] send: files
+2024-07-04 00:04:25,966 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-07-04 00:04:26,287 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: python_packages
+2024-07-04 00:04:26,289 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-04 00:04:26,289 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-04 00:04:26,289 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: python_packages
+2024-07-04 00:04:26,292 DEBUG   SenderThread:27831 [sender.py:send():379] send: telemetry
+2024-07-04 00:04:26,292 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: stop_status
+2024-07-04 00:04:26,357 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/conda-environment.yaml
+2024-07-04 00:04:26,358 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/wandb-metadata.json
+2024-07-04 00:04:26,358 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/requirements.txt
+2024-07-04 00:04:26,932 INFO    wandb-upload_0:27831 [upload_job.py:push():131] Uploaded file /tmp/tmpiy91xkqzwandb/38fq78gp-wandb-metadata.json
+2024-07-04 00:04:27,358 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:27,720 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:04:29,359 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:32,948 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:04:33,361 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:35,362 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:36,363 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:38,366 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:38,543 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:04:41,286 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-04 00:04:41,286 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: stop_status
+2024-07-04 00:04:41,291 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-04 00:04:42,366 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:43,745 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:04:44,254 DEBUG   SenderThread:27831 [sender.py:send():379] send: telemetry
+2024-07-04 00:04:44,367 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:44,478 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: summary_record
+2024-07-04 00:04:44,483 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-04 00:04:44,483 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: summary_record
+2024-07-04 00:04:44,483 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: partial_history
+2024-07-04 00:04:44,484 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-04 00:04:44,484 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: summary_record
+2024-07-04 00:04:44,485 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-04 00:04:44,485 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: summary_record
+2024-07-04 00:04:44,485 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-04 00:04:44,485 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: summary_record
+2024-07-04 00:04:44,486 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-04 00:04:44,486 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: summary_record
+2024-07-04 00:04:44,486 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-04 00:04:44,486 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: summary_record
+2024-07-04 00:04:44,487 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-04 00:04:44,487 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: summary_record
+2024-07-04 00:04:44,487 INFO    SenderThread:27831 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-04 00:04:44,487 DEBUG   SenderThread:27831 [sender.py:send():379] send: telemetry
+2024-07-04 00:04:45,368 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/wandb-summary.json
+2024-07-04 00:04:46,368 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/output.log
+2024-07-04 00:04:49,619 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:04:54,625 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:04:55,372 INFO    Thread-16 :27831 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vladislav/PythonProject/retinopathy_segmentation/src/models/smp/wandb/run-20240704_000422-qyk946z3/files/config.yaml
+2024-07-04 00:04:56,288 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-04 00:04:56,289 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-04 00:04:56,290 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: stop_status
+2024-07-04 00:05:00,555 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:05:05,556 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:05:10,557 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report
+2024-07-04 00:05:11,285 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-04 00:05:11,286 DEBUG   SenderThread:27831 [sender.py:send_request():406] send_request: stop_status
+2024-07-04 00:05:11,327 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-04 00:05:15,617 DEBUG   HandlerThread:27831 [handler.py:handle_request():146] handle_request: status_report

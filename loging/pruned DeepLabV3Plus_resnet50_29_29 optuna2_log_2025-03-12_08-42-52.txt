@@ -1,0 +1,1 @@
+2025-03-12_08-42-52 - Trial DeepLabV3Plus_resnet50_29_29 was pruned.

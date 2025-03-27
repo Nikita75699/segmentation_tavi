@@ -1,0 +1,1 @@
+2025-03-10_01-32-34 - Trial MAnet_timm-regnetx_120_39_39 was pruned.

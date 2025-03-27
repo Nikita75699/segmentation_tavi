@@ -1,0 +1,1 @@
+2025-03-23_17-50-27 - Trial UnetPlusPlus_timm-regnetx_120_3_3 was pruned.

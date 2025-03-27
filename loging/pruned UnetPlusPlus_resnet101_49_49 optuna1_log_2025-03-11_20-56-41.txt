@@ -1,0 +1,1 @@
+2025-03-11_20-56-41 - Trial UnetPlusPlus_resnet101_49_49 was pruned.

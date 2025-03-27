@@ -1,0 +1,1 @@
+2025-03-08_03-03-13 - Trial DeepLabV3Plus_efficientnet-b6_19_19 finished successfully with best IOU: 0.8388732671737671
