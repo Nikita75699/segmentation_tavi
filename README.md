@@ -84,11 +84,14 @@ Follow the [installation guide](https://docs.conda.io/projects/miniconda/en/late
 
 git clone https://github.com/ViacheslavDanilov/histology_segmentation.git
 cd histology_segmentation
-Step 3: Set up an environment and install the necessary packages
+
+### Step 3: Set up an environment and install the necessary packages
 
 chmod +x make_env.sh
 ./make_env.sh
+
 ---
+
 ## 🔐 Data Access
 All essential components of the study, including the curated source code, dataset, and trained models, are publicly available:
 
