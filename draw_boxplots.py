@@ -6,7 +6,7 @@ from matplotlib.ticker import MultipleLocator
 
 def main():
 
-    metrics_path = "wandb_export_2025-02-12T14_24_03.776+07_00.csv"
+    metrics_path = "metrics/output.csv"
     save_dir = "save_graph"
     os.makedirs(save_dir, exist_ok=True)
 
@@ -20,8 +20,8 @@ def main():
         print(f"Ошибка: В файле отсутствуют колонки {missing_columns}")
         return
 
-    df['Loss'] = df['Loss'].str.replace(',', '.').astype(float)
-    df['Dice'] = df['Dice'].str.replace(',', '.').astype(float)
+    # df['Loss'] = df['Loss'].str.replace(',', '.').astype(float)
+    # df['Dice'] = df['Dice'].str.replace(',', '.').astype(float)
 
     # Define y-limits for each class
     y_limits = {
@@ -46,6 +46,7 @@ def main():
     # Plotting
     sns.set(style='whitegrid')
 
+
     for metric in ['Loss', 'Dice']:  # Оставляем только нужные графики
         print(f"Обрабатываем: {metric}")
         plt.figure(figsize=(12, 12))
@@ -65,6 +66,29 @@ def main():
             linewidth=2.0,
         )
 
+        print(f"\nСтатистика по {metric}:")
+        for model in model_order:
+            model_data = df[df['Model'] == model][metric].dropna()
+            if len(model_data) > 0:
+                q1 = model_data.quantile(0.25)
+                median = model_data.median()
+                q3 = model_data.quantile(0.75)
+                iqr = q3 - q1
+                lower_bound = q1 - 1.5 * iqr
+                upper_bound = q3 + 1.5 * iqr
+                
+                print(f"\n{model}:")
+                print(f"  Медиана: {median:.3f}")
+                print(f"  25-й перцентиль: {q1:.3f}")
+                print(f"  75-й перцентиль: {q3:.3f}")
+                print(f"  IQR: {iqr:.3f}")
+                print(f"  Нижняя граница (без выбросов): {lower_bound:.3f}")
+                print(f"  Верхняя граница (без выбросов): {upper_bound:.3f}")
+                # print(f"  Минимум: {model_data.min():.3f}")
+                # print(f"  Максимум: {model_data.max():.3f}")
+            else:
+                print(f"\n{model}: Нет данных")
+
         plt.ylabel(metric, fontsize=36)
         plt.xticks(rotation=90, fontsize=30)
         plt.yticks(fontsize=30)
@@ -79,7 +103,7 @@ def main():
         plt.tight_layout()
 
         # Сохраняем график
-        save_path = os.path.join(save_dir, f'{metric}_boxplot.png')
+        save_path = os.path.join(save_dir, f'{metric}_boxplot.jpg')
         plt.savefig(save_path, dpi=600, bbox_inches='tight')
         plt.show()
         plt.close()

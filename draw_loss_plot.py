@@ -14,8 +14,8 @@ def main():
     # Read DataFrame with metrics
     df = pd.read_csv(metrics_path)
 
-    df['Loss'] = df['Loss'].str.replace(',', '.').astype(float)
-    df['Dice'] = df['Dice'].str.replace(',', '.').astype(float)
+    # df['Loss'] = df['Loss'].str.replace(',', '.').astype(float)
+    # df['Dice'] = df['Dice'].str.replace(',', '.').astype(float)
 
     gb = df.groupby('model')
 
@@ -50,6 +50,8 @@ def main():
             err_style='band',
             errorbar=('ci', 95),
         )
+
+
 
         plt.xlabel('Epoch', fontsize=36)
         plt.ylabel('Metric Value', fontsize=36)
