@@ -89,7 +89,7 @@ Following the tuning stage, the models were trained and evaluated on the entire 
 </table>
 
 <p align="center">
-  <em>FFigure 2. Comparative analysis of loss and DSC evolution during training and testing phases over 5-fold cross-validation with 95% confidence interval</em>
+  <em>Figure 2. Comparative analysis of loss and DSC evolution during training and testing phases over 5-fold cross-validation with 95% confidence interval</em>
 </p>
 
 ---
