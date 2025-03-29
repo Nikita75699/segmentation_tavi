@@ -97,4 +97,4 @@ All essential components of the study, including the curated source code, datase
 
 Source code: https://github.com/Nikita75699/segmentation_tavi.git
 Dataset: https://doi.org/10.5281/zenodo.15094600
-Models: https://zenodo.org/10.5281/zenodo.15094680
+Models: [https://zenodo.org/10.5281/zenodo.15094680](https://doi.org/10.5281/zenodo.15100705)
