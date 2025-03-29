@@ -21,21 +21,24 @@ The dataset used in the study included **2,854 contrast-enhanced images** of **1
 - **Training set**: ~2,455–2,514 images (87%) from 65 patients  
 - **Validation set**: ~340–399 images (13%) from 15 patients
 
-<p align="center">
-  <img src=".assets/ground_truth1.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (A)">
-</p>
-
-<p align="center">
-  <img src=".assets/ground_truth2.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (B)">
-</p>
-
-<p align="center">
-  <img src=".assets/ground_truth3.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (C)">
-</p>
-
-<p align="center">
-  <img src=".assets/ground_truth4.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (D)">
-</p>
+<table align="center">
+  <tr>
+    <td>
+      <img src=".assets/ground_truth1.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (A)">
+    </td>
+    <td>
+      <img src=".assets/ground_truth2.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (B)">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src=".assets/ground_truth3.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (C)">
+    </td>
+    <td>
+      <img src=".assets/ground_truth4.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (D)">
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <em>Figure 1. Data for labeling intraoperative aortography images during the TAVI procedure.</em>
@@ -43,7 +46,7 @@ The dataset used in the study included **2,854 contrast-enhanced images** of **1
 
 <p align="center">
   (A) Overview; (B) Positioning of the aortic valve; (C) Partial valve opening; (D) Follow-up angiography after valve implantation.
-</p> 
+</p>
 
 ---
 
