@@ -14,7 +14,7 @@ def main():
     df = pd.read_csv(metrics_path)
 
     # Проверяем, существуют ли нужные колонки перед преобразованием
-    required_columns = {'Loss', 'Dice', 'Model', 'Class'}
+    required_columns = {'Loss', 'DSC', 'Model', 'Class'}
     missing_columns = required_columns - set(df.columns)
     if missing_columns:
         print(f"Ошибка: В файле отсутствуют колонки {missing_columns}")
@@ -47,7 +47,7 @@ def main():
     sns.set(style='whitegrid')
 
 
-    for metric in ['Loss', 'Dice']:  # Оставляем только нужные графики
+    for metric in ['Loss', 'DSC']:  # Оставляем только нужные графики
         print(f"Обрабатываем: {metric}")
         plt.figure(figsize=(12, 12))
 
@@ -104,7 +104,7 @@ def main():
 
         # Сохраняем график
         save_path = os.path.join(save_dir, f'{metric}_boxplot.jpg')
-        plt.savefig(save_path, dpi=600, bbox_inches='tight')
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
         plt.show()
         plt.close()
 
