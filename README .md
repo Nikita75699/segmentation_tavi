@@ -24,21 +24,21 @@ The dataset used in the study included **2,854 contrast-enhanced images** of **1
 <table align="center">
   <tr>
     <td>
-      <img src=".assets/ground_truth1.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (A)">
+      <img src=".assets/org_image_1.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (A)">
       <p align="center">(A) Overview</p>
     </td>
     <td>
-      <img src=".assets/ground_truth2.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (B)">
+      <img src=".assets/org_image_2.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (B)">
       <p align="center">(B) Positioning of the aortic valve</p>
     </td>
   </tr>
   <tr>
     <td>
-      <img src=".assets/ground_truth3.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (C)">
+      <img src=".assets/org_image_3.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (C)">
       <p align="center">(C) Partial valve opening</p>
     </td>
     <td>
-      <img src=".assets/ground_truth4.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (D)">
+      <img src=".assets/org_image_4.jpg" alt="Data for labeling intraoperative aortography images during the TAVI procedure (D)">
       <p align="center">(D) Follow-up angiography after valve implantation</p>
     </td>
   </tr>
@@ -55,13 +55,42 @@ The methodology involved two main stages: hyperparameter tuning and model traini
 
 Following the tuning stage, the models were trained and evaluated on the entire dataset using a 5-fold cross-validation approach (Figure 2). This ensured the integrity of subject groups within each subset, preventing data leakage. During training, various augmentation techniques were applied to expand the dataset and mitigate overfitting. Besides that, batch size adjusted based on GPU memory utilization (~90-100% usage).
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/51529040-0ab9-40da-9104-acd92b5055a0" alt="Training and testing analysis">
-</p>  
+<table align="center">
+  <tr>
+    <td>
+      <img src=".assets/UnetPlusPlus_loss.jpg" alt="UnetPlusPlus_loss.jpg">
+      <p align="center">(A) Unet++</p>
+    </td>
+    <td>
+      <img src=".assets/LinkNet_loss.jpg" alt="LinkNet_loss.jpg">
+      <p align="center">(B) LinkNet</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src=".assets/FPN_loss.jpg" alt="FPN_loss.jpg">
+      <p align="center">(C) FPN</p>
+    </td>
+    <td>
+      <img src=".assets/PSPNet_loss.jpg" alt="PSPNet_loss.jpg">
+      <p align="center">(D) PSPNet</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src=".assets/DeepLabV3Plus_loss.jpg" alt="DeepLabV3Plus_loss.jpg">
+      <p align="center">(E) DeepLabV3+</p>
+    </td>
+    <td>
+      <img src=".assets/MAnet_loss.jpg" alt="MAnet_loss.jpg">
+      <p align="center">(F) MA-Net</p>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <em>Figure 2. Comparative analysis of loss and DSC evolution during training and testing phases over 5-fold cross-validation with 95% confidence interval.</em>
-</p> 
+  <em>FFigure 2. Comparative analysis of loss and DSC evolution during training and testing phases over 5-fold cross-validation with 95% confidence interval</em>
+</p>
 
 ---
 
