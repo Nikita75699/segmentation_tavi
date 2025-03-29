@@ -20,9 +20,18 @@ The dataset used in the study included **2,854 contrast-enhanced images** of **1
 
 - **Training set**: ~2,455–2,514 images (87%) from 65 patients  
 - **Validation set**: ~340–399 images (13%) from 15 patients
-- 
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7b6db0bc-c903-40e0-bece-bbc7d8f74a1c" " alt="Data for labeling intraoperative aortography images during the TAVI procedure">
+  <img src=".assets/ground_truth1.jpg" " alt="Data for labeling intraoperative aortography images during the TAVI procedure">
+</p>
+<p align="center">
+  <img src=".assets/ground_truth2.jpg" " alt="Data for labeling intraoperative aortography images during the TAVI procedure">
+</p> 
+<p align="center">
+  <img src=".assets/ground_truth3.jpg" " alt="Data for labeling intraoperative aortography images during the TAVI procedure">
+</p> 
+<p align="center">
+  <img src=".assets/ground_truth4.jpg" " alt="Data for labeling intraoperative aortography images during the TAVI procedure">
 </p> 
 <p align="center">   
  <em>Figure 1. Data for labeling intraoperative aortography images during the TAVI procedure.</em>  
