@@ -81,20 +81,20 @@ Required core libraries: environment.yaml
 Follow the [installation guide](https://docs.conda.io/projects/miniconda/en/latest/index.html#quick-command-line-install).  
 
 ### Step 2: Clone the repository and change the current working directory
-
-git clone https://github.com/ViacheslavDanilov/histology_segmentation.git
+``` bash
+https://github.com/Nikita75699/segmentation_tavi.git
 cd histology_segmentation
-
+```
 ### Step 3: Set up an environment and install the necessary packages
-
+``` bash
 chmod +x make_env.sh
 ./make_env.sh
-
+```
 ---
 
 ## 🔐 Data Access
 All essential components of the study, including the curated source code, dataset, and trained models, are publicly available:
 
-Source code: https://github.com/Nikita75699/segmentation_tavi.git
-Dataset: https://doi.org/10.5281/zenodo.15094600
-Models: https://zenodo.org/10.5281/zenodo.15094680
+- **Source code:** [https://github.com/ViacheslavDanilov/histology_segmentation](https://github.com/Nikita75699/segmentation_tavi.git)
+- **Dataset:** [https://zenodo.org/doi/10.5281/zenodo.10838383](https://zenodo.org/doi/10.5281/zenodo.10838383)
+- **Models:** [https://zenodo.org/10.5281/zenodo.15094680](https://doi.org/10.5281/zenodo.15100705)
